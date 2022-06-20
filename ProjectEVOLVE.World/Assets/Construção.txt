@@ -1,0 +1,20 @@
+﻿Uma nova ideia brotou:
+
+Começa gerando uma MegaRegion, composta por 16 Regions de 2048.
+Dentro desta MegaRegion, todos os 16 Regions serão processados em:
+ - BaseHeight
+	 - BaseBiome
+	 - BaseTemperature
+	 - BaseMoisture
+Cada um desses passes terá um gap de 8 blocos, sendo processados 9 pontos por Chunk
+O BaseHeight será dividido em 4 passes:
+ - Oceans - limite terra água
+ - Plains - terreno sem muito relevo, proximo ao nivel do oceano
+ - Plateaus - montanhas baixas - 500u, de alta densidade
+ - Depressions - cavidades que podem ser mais baixas que o nivel do oceano
+ - Mountains - montanhas maiores que 500u, de baixa densidade
+Com estes dados, serão formados os seguintes BaseBiomes:
+ - Ocean
+ - Plains
+ - Forest
+ - Mountains

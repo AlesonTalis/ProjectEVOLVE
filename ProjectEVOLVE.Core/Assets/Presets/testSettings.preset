@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: testSettings
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 4dd0c13083d544d4a93408d4d6a0cb6a, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.worldSeed
+    value: lol
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.worldScale
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.chunkSize
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.regionSize
+    value: 64
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].biomeName
+    value: plains
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].biomeId
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].temperatureRange.x
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].temperatureRange.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].moistureRange.x
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].moistureRange.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplier
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].inSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].outSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].heightMultiplierEvaluate.m_RotationOrder
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].decorationsSettings.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.noiseType
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.noiseFrequency
+    value: 0.015
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.fractalType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.fractalOctaves
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.fractalLacunarity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.fractalGain
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.cellularDistanceFunction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.cellularReturnType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.cellularJitter
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.useWarpMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpAmplitude
+    value: 90
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpFrequency
+    value: 0.005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpFractalType
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpFractalOctaves
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpFractalLacunarity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[0].noiseSettings.domainWarpFractalGain
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].biomeName
+    value: desert
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].biomeId
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].temperatureRange.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].temperatureRange.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].moistureRange.x
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].moistureRange.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplier
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].inSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].outSlope
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].heightMultiplierEvaluate.m_RotationOrder
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].decorationsSettings.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.noiseType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.noiseFrequency
+    value: 0.005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.fractalType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.fractalOctaves
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.fractalLacunarity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.fractalGain
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.cellularDistanceFunction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.cellularReturnType
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.cellularJitter
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.useWarpMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpAmplitude
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpFrequency
+    value: 0.005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpFractalType
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpFractalOctaves
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpFractalLacunarity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: worldSettings.biomeSettings.Array.data[1].noiseSettings.domainWarpFractalGain
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gameSettings.visibleChunks
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gameSettings.minUpdateMoveDistance
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: viewPosition
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: singleChunkOffsetTarget.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: singleChunkOffsetTarget.y
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

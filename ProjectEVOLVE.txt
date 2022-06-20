@@ -1,0 +1,42 @@
+# Projeto EVOLVE
+
+## Descrição
+
+Projeto de video game baseado nas ideias de "procedural world generation", "micro-managment", "base construction".
+
+## Ideia do jogo
+
+O objetivo inicial do jogo será construir uma colonia, pois o protagonista foi enviado com antecedencia para o planeta com este objetivo.
+
+Mas, terá alguns problemas:
+
+- O planeta é habitado por criaturas pacificas, neutras e hostis, e são estremamente agressivas com maquinas que fazem "barulho".
+- A duração do dia e da noite varia durante o ano, sendo que uma certa parte do ano o dia é mais longo e a noite mais curta, e vice-versa. O motivo é que a rotação do planeta é instavel, relativo a rota eliptica ao redor dos dois sois.
+- A temperatura também será um problema. Quanto mais tempo durante a noite, mais a temperatura cairá, até 1°K. A temperatura máxima - durante o dia - será de 350°K.
+
+## Divisão do Projeto
+
+O projeto será dividido em partes, para melhor desempenho na criação.
+
+- Core: responsável pela mecanica de geração procedural de terreno
+
+
+### ProjectEVOLVE.Core
+
+Geração de terreno em geral, completamente procedural
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
